@@ -31,7 +31,7 @@ fn main() {
 }
 
 // The output is wrapped in a Result to allow matching on errors
-// Returns an Iterator to the Reader of the lines of the file.
+// Returns a vector of the lines of the file.
 //
 // Based on:
 // https://doc.rust-lang.org/rust-by-example/std_misc/file/read_lines.html
