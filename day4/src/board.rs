@@ -54,13 +54,11 @@ impl Board {
                     self.completed = true;
 
                     let unmarked_sum = self.unmarked_numbers.keys()
-                        .cloned()
                         .sum::<u32>();
 
                     let score = unmarked_sum * number;
                     Some(score)
                 } else {
-                    
                     None
                 }
             },
